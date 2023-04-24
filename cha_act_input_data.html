@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Input Data </title>
+  <link rel="stylesheet" href="cha_act_stylesheet.css">
+</head>
+<body>
+  <div class="form-container">
+    <form action="cha_act_costcenter.html">
+ <h2> INPUT DATA </h2>
+ <h2>CUSTOMER DETAILS:</h2>
+    
+  	<label for="fname" class="form-label">First Name:</label>
+    <input type="text" id="fname" name="fname" placeholder="First Name" class="form-input">
+
+	<label class="form-label" for="mname">Middle Name:</label>
+	<input class="form-input" type="text" name="mname" placeholder="Middle Name"></input>
+	
+	<label class="form-label" for="lname">Last Name:</label>
+	<input class="form-input" type="text" name="lname" placeholder="Last Name"></input>
+	
+	<label class="form-label" for="email">Email Address:</label>
+	<input class="form-input" type="text" name="email" placeholder="Email Address"></input>
+	
+	<label class="form-label" for="mnumber">Mobile Number:</label>
+	<input class="form-input" type="text" name="mnumber" placeholder="Mobile Number"></input>
+	
+	<label class="form-label" for="gender">Gender:</label><br>
+	<input type="radio" id="gender" name="gender" value="male"/>Male 
+	<input type="radio" id="gender" name="gender" value="female"/>Female
+	<br><br>
+	
+	<label class="form-label" for="bdate">Birthdate:</label>
+	<input class="form-input" type="date" name="bdate"></input>
+	
+	<label class="form-label" for="address">Address:</label>
+	<textarea class="form-input" id="address" name="address" rows="4" cols="23"
+	placeholder="Address"></textarea>
+
+<h2> PAYMENT TRANSACTION </h2>
+<h2> ORDER DETAILS:</h2>
+
+	<label class="form-label" for="product">Product:</label>
+	<select class="form-input" id="product" name="product">
+		<option value="grapewine">Grape Wine</option></select>
+	
+	<label for="quantity" class="form-label">Quantity:</label>
+    <input type="text" id="quantity" name="fname" placeholder="Quantity" class="form-input">
+	
+	<label class="form-label" for="ptype">Payment Type:</label>
+	<select class="form-input" id="ptype" name="ptype">
+		<option value="cash">Cash</option>
+		<option value="cheque">Cheque</option>
+		<option value="e-wallet">E-wallet</option>
+    </select>
+	
+	<label class="form-label" for="pdate">Payment Date:</label>
+	<input class="form-input" type="date" name="pdate"></input>
+	
+	<label class="form-label" for="edate">Expenses Date:</label>
+	<input class="form-input" type="date" name="edate"></input>
+	
+	<label class="form-label" for="tdate">Transaction Date:</label>
+	<input class="form-input" type="date" name="tdate"></input>
+	
+	<label class="form-label" for="ordernote">Order Note:</label>
+	<textarea id="ordernote" name="ordernote" rows="4" cols="23"
+	placeholder="Order Note"></textarea>
+	<br><br>
+   <button type="reset" class="form-button">Reset</button>
+   <button type="submit" class="form-button">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
